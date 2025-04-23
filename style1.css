@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin:0;
+    border: border-box;
+}
+main{
+    width: 100%;
+    ;
+    
+}
+
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 88px;
+    margin-left: 108px;
+    border-bottom: 100px;
+    position: relative;
+}
+
+.navbar.img{
+    width: 20px;
+    margin-left: 0;
+    height: 2px;
+}
+.options{
+    display: flex;
+     gap: 20px;
+     margin-left: 362px;
+     
+}
+.options a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    float: right;
+    
+}
+
+.logbtn{
+    padding: 5px 10px;
+    border: 1px solid #333;
+    background-color: white;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    border-width: 2px;
+    padding: 20%;
+}
+.intro{
+    border: 0.800px;
+    width: 100vh;
+    height: 229.125px;
+    padding-top: 92px;
+    padding-bottom: 56px;
+    
+}
+
+.intro .introcenter{
+    margin-left: 500px;
+    margin-right: 500px;
+    width: 1280px;
+    height: 229.125px;
+}
+    
+.introcenter .introhead{
+    size: 10rem; 
+    width: 816px;
+    height: 60px;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.introcenter .intropara{
+    size: 5rem;
+    width :816px;   
+    height: 60px;
+    justify-content: center;
+    height: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+

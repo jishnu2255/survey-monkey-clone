@@ -1,0 +1,374 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333e48;
+    line-height: 1.3;
+}
+
+.navbar{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+    align-items: center;
+    border-bottom: 1px solid #D0D2D3;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.logoimg img{
+    
+    width: 91%;
+    height: 84px;
+    margin-left: 69px;
+   
+}
+
+.options{
+    width: 60%;
+    display: flex;
+    gap: 20px;
+    flex-direction: right;
+    margin-left: 576px;
+    
+    
+    
+}
+.options a{
+    flex: right;
+   /* padding-top: 16px;
+    padding-right: 16px;*/
+    display: flex;
+    align-items: center;
+    text-decoration: none; 
+    color: #6C777D;   
+        
+}
+
+.btn{
+    background-color: #ffffff;
+  border: 2px solid black;
+  color: rgb(12, 12, 12);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+  font-weight: 800;
+  
+}
+
+.btn :hover{
+    background-color: black;
+    color: #ffffff;
+}
+
+.hero{
+    padding-top:100px;
+    width:100%;
+    height: 370px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2%;
+    margin-left: 5px;
+}
+.para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+
+}
+.buttons button{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.showhowitwork{
+    background-color: #F9BE00;
+}
+.Watchdemo{
+    background-color: #00BF6F;
+}
+
+.heading{
+    width:820px;
+    height: 70px;
+    
+}
+.heading h1{
+    color:#333E48;
+    font-size:58px;
+    
+}
+.para p{
+    width:820px;
+    color:#333E48;
+    height: 60px;
+    font-size:18px;
+    
+}
+.intropic{
+    width: 100%;
+    height: 600px;
+    background-image: url("intropic.png");
+    background-size: cover;
+}
+.trustorg h8 {
+    width:100%;
+    height: 90px;
+    background-color: white;
+    padding-top: 30px;
+    color:#c9c8c6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.orgpic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+    height:80px;
+}
+.box{
+    width:15%;
+    height:121px;
+    background-size: contain;
+}
+.mission {
+    
+    align-items: center;
+    justify-content: center;
+    height: 1812px;
+
+
+}
+.headingmission h1{
+    font-size: 2.5rem;
+    
+    margin-left: 30%;
+    padding-top: 140px;
+    padding-bottom: 40px;
+   
+}
+
+.missioncontent
+{  background-color: white;
+   width: 100%;
+   height:500px;
+   
+  
+}
+.pic{
+    width:49%;
+    height:466px;
+    background-size:cover;
+}
+.mission1{
+ display: flex;
+}
+.mission2{
+    display: flex;
+   }
+   .mission3{
+    display: flex;
+   }
+   
+   .writings{
+    
+    align-items: center;
+    justify-content: center;
+   }
+   .writings h2 {
+    font-size: 1.8rem;
+    padding-top: 208px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    
+   }
+   .writings p{
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100px;
+    
+   }
+.foot1{
+    background-color: #333e48;
+    width: 100%;
+    height: 300px;
+}
+
+.found{
+    margin-left: 71px;
+    margin-right:71px ;
+    height: 800px;
+    
+}
+
+.banner{
+    width: 118px;
+    height: 285px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 13%;
+    padding-bottom: 10%;
+}
+.writingsBAN{
+    background-color: white;
+    height: 437px;
+}
+.found{
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+}
+.found1{
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+}
+.found2{
+    display:flex;
+}
+.found3{
+    display: flex;
+
+}
+.found4{
+    display: flex;
+}
+.banner img{
+    width: 200px;
+    height:80px;
+}
+.writingsBAN p{
+    padding-top: 113px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    line-height: 2;
+    font-size: 19px;
+}
+.writingsBAN h2{
+    text-align: center;
+}
+#red{
+    color: #8A2031;
+}
+#green{
+    color: #00AA90;
+}
+#orange{
+    color: #D26D3F;
+}
+.meethead{
+    width: 100%;
+  height:100px;
+  margin-top: 187px;
+  display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 1.2rem;
+}
+.meetcontainer{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 1.2rem;
+    
+    height:20%;
+    margin-left: 71px;
+    margin-right: 71px;
+    
+}
+
+.div1{
+    width:25%;
+    height:300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    
+    
+    
+}
+.div2{
+    width:25%;
+    height:300px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.div2{
+    width:25%;
+    height:300px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.div3{
+    width:25%;
+    height:300px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.div4{
+    width:25%;
+    height:300px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.top{
+    height: 50%;
+    background-color: #05467e;
+    color: #fafafa;
+    padding-left: 20px;
+}
+.bottom{
+    height: 50%;
+    background-color:white;
+}
+.top  h4{
+    color:#fafafa;
+    padding-top: 10px;
+}
+.top i{
+    color: #fafafa;
+    padding-top: 10px;
+    
+}
